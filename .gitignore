@@ -10,13 +10,6 @@
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 
-*.aar
-*.bc
-*.dll
-*.dylib
-*.so
-**/*.framework/*
-!**/*.framework/*.meta
 
 
 # MemoryCaptures can get excessive in size.
