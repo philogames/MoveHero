@@ -9,7 +9,7 @@ using MoreMountains.Tools;
 [System.Serializable]
 public class Bola_Info
 {
-    #region Dados Recebidos do Servidor
+    #region Dados Iniciais
     [SerializeField]
     int ID;
     [SerializeField]
@@ -25,7 +25,7 @@ public class Bola_Info
     #endregion
 
 
-    #region Dados a serem enviados para o servidor no final da partida
+    #region Dados do jogo
     //hit info
     [MMReadOnly]
     public float hit_time;
